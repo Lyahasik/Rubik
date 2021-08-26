@@ -322,7 +322,10 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/VSSettingsProvider.ref.dll"
-"Assets/Scripts/RotatingRubic.cs"
+"Assets/Scripts/RotatingCamera.cs"
+"Assets/Scripts/Rubik/CellProcessing.cs"
+"Assets/Scripts/Rubik/FaceProcessing.cs"
+"Assets/Scripts/Rubik/FacetRotations.cs"
 -langversion:8.0
 
 /deterministic

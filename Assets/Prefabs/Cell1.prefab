@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 7964305119229827649}
   - component: {fileID: 4828742888251344409}
   - component: {fileID: 7791053043570964582}
+  - component: {fileID: 263330361306648763}
   m_Layer: 0
   m_Name: Forward
   m_TagString: Untagged
@@ -178,6 +179,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1, y: 1.1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &263330361306648763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3581105984504013994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1cfce8b568ec4d7ab74af7276f8f03f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cell: {fileID: 7146278768984733761}
 --- !u!1 &4363970110160265755
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,6 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 176484163256527663}
+  - component: {fileID: 7146278768984733761}
   m_Layer: 0
   m_Name: Cell1
   m_TagString: Untagged
@@ -210,3 +225,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7146278768984733761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4363970110160265755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f2b414f5d85421780a4abbfb190a3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cube: {fileID: 1212229803937471022}

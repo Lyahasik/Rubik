@@ -41,7 +41,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\RotatingRubic.cs" />
+     <Compile Include="Assets\Scripts\Rubik\FacetRotations.cs" />
+     <Compile Include="Assets\Scripts\Rubik\FaceProcessing.cs" />
+     <Compile Include="Assets\Scripts\Rubik\CellProcessing.cs" />
+     <Compile Include="Assets\Scripts\RotatingCamera.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

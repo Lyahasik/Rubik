@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: df62c604530da44e0908ce27788dcdab, type: 2}
+    - target: {fileID: 7146278768984733761, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
 --- !u!4 &18505129 stripped
@@ -204,6 +208,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1939178007}
     m_Modifications:
+    - target: {fileID: 4441721731302722896, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -270,6 +278,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
   m_PrefabInstance: {fileID: 117401706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &169468145 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 1760869625}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &173962621
 PrefabInstance:
@@ -338,12 +351,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 36221f53e43f345118ae11df71d1d959, type: 2}
+    - target: {fileID: 7146278768984733761, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
 --- !u!4 &173962622 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 176484163256527663, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
   m_PrefabInstance: {fileID: 173962621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &178677664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 1501835470}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &232495121
 GameObject:
@@ -505,12 +527,36 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8caaac1cd00834bf1b36addb8dfb4424, type: 2}
+    - target: {fileID: 7146278768984733761, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
 --- !u!4 &258173209 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 176484163256527663, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
   m_PrefabInstance: {fileID: 258173208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &268608381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4363970110160265755, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+  m_PrefabInstance: {fileID: 2053405493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &305362368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4363970110160265755, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+  m_PrefabInstance: {fileID: 831000866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &320236327 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9150384797535626322, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+  m_PrefabInstance: {fileID: 1625105560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &324029165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 1836611442}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &351211766
 PrefabInstance:
@@ -519,6 +565,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1939178007}
     m_Modifications:
+    - target: {fileID: 4441721731302722896, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -613,6 +663,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 36221f53e43f345118ae11df71d1d959, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -675,6 +729,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1939178007}
     m_Modifications:
+    - target: {fileID: 4441721731302722896, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -754,6 +812,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
   m_PrefabInstance: {fileID: 369019523}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &417842247 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 1051571860}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &472956256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -769,6 +832,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 36221f53e43f345118ae11df71d1d959, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -836,6 +903,21 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4202945787013506285, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
   m_PrefabInstance: {fileID: 472956256}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &517935220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 657861881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &540084092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9150384797535626322, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+  m_PrefabInstance: {fileID: 1866863509}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &638046761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9150384797535626322, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+  m_PrefabInstance: {fileID: 1328629090}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &657861881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -851,6 +933,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8caaac1cd00834bf1b36addb8dfb4424, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -918,6 +1004,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4202945787013506285, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
   m_PrefabInstance: {fileID: 657861881}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &673968974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9150384797535626322, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+  m_PrefabInstance: {fileID: 351211766}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &718123019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -925,6 +1016,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1939178007}
     m_Modifications:
+    - target: {fileID: 4441721731302722896, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -992,6 +1087,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
   m_PrefabInstance: {fileID: 718123019}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &751359575 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 1942090913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &774586907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1007,6 +1107,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8caaac1cd00834bf1b36addb8dfb4424, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1141,12 +1245,36 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8f3ac9969a63c445a9183049c1feb504, type: 2}
+    - target: {fileID: 7146278768984733761, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
 --- !u!4 &831000867 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 176484163256527663, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
   m_PrefabInstance: {fileID: 831000866}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &835941661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4363970110160265755, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+  m_PrefabInstance: {fileID: 258173208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &890198466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 367258026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &890425480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 2040024657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &951799135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4363970110160265755, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+  m_PrefabInstance: {fileID: 1885465055}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
@@ -1158,6 +1286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
+  - component: {fileID: 963194229}
   - component: {fileID: 963194226}
   m_Layer: 0
   m_Name: Main Camera
@@ -1225,12 +1354,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0.14644654, y: 0.8535535, z: -0.3535534, w: -0.35355324}
-  m_LocalPosition: {x: 5, y: 6, z: 5}
+  m_LocalPosition: {x: 4, y: 5.5, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 225, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 234462751c24c4950ae27b265a76399a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpeedRotation: 20
+--- !u!1 &995533297 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 1353757171}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1051571860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1246,6 +1393,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad4989df60f124818914ca664c17befa, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1320,6 +1471,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1939178007}
     m_Modifications:
+    - target: {fileID: 4441721731302722896, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -1402,6 +1557,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: df62c604530da44e0908ce27788dcdab, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1457,6 +1616,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4202945787013506285, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
   m_PrefabInstance: {fileID: 1353757171}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1425934712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9150384797535626322, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+  m_PrefabInstance: {fileID: 718123019}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1460959969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 774586907}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1501835470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1472,6 +1641,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: df62c604530da44e0908ce27788dcdab, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1542,6 +1715,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: df62c604530da44e0908ce27788dcdab, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1597,6 +1774,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4202945787013506285, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
   m_PrefabInstance: {fileID: 1519499951}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1589823246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9150384797535626322, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+  m_PrefabInstance: {fileID: 369019523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1624888869 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4363970110160265755, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+  m_PrefabInstance: {fileID: 18505128}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1625105560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1604,6 +1791,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1939178007}
     m_Modifications:
+    - target: {fileID: 4441721731302722896, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -1686,6 +1877,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: df62c604530da44e0908ce27788dcdab, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1834,6 +2029,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1777709069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 472956256}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1788235104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1841,6 +2041,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1939178007}
     m_Modifications:
+    - target: {fileID: 4441721731302722896, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -1908,6 +2112,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
   m_PrefabInstance: {fileID: 1788235104}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1836035330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9150384797535626322, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+  m_PrefabInstance: {fileID: 1788235104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1836611442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1923,6 +2132,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 36221f53e43f345118ae11df71d1d959, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1997,6 +2210,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1939178007}
     m_Modifications:
+    - target: {fileID: 4441721731302722896, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 5526661214240208537, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -2131,6 +2348,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad4989df60f124818914ca664c17befa, type: 2}
+    - target: {fileID: 7146278768984733761, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
 --- !u!4 &1885465056 stripped
@@ -2147,6 +2368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1939178007}
+  - component: {fileID: 1939178009}
   m_Layer: 0
   m_Name: Rubik
   m_TagString: Untagged
@@ -2194,6 +2416,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1939178009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939178006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee2657edd3c9b40e6be83c0bcf221975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cells:
+  - {fileID: 1624888869}
+  - {fileID: 951799135}
+  - {fileID: 1981572206}
+  - {fileID: 835941661}
+  - {fileID: 305362368}
+  - {fileID: 268608381}
+  - {fileID: 995533297}
+  - {fileID: 169468145}
+  - {fileID: 2065443434}
+  - {fileID: 178677664}
+  - {fileID: 751359575}
+  - {fileID: 890425480}
+  - {fileID: 417842247}
+  - {fileID: 890198466}
+  - {fileID: 1777709069}
+  - {fileID: 324029165}
+  - {fileID: 517935220}
+  - {fileID: 1460959969}
+  - {fileID: 2018444091}
+  - {fileID: 673968974}
+  - {fileID: 320236327}
+  - {fileID: 1589823246}
+  - {fileID: 1425934712}
+  - {fileID: 540084092}
+  - {fileID: 1836035330}
+  - {fileID: 638046761}
 --- !u!1001 &1942090913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2209,6 +2470,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad4989df60f124818914ca664c17befa, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2264,6 +2529,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4202945787013506285, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
   m_PrefabInstance: {fileID: 1942090913}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1981572206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4363970110160265755, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+  m_PrefabInstance: {fileID: 173962621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2018444091 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9150384797535626322, guid: bf69661c1b9b2422e8cf4ddaf0838d07, type: 3}
+  m_PrefabInstance: {fileID: 117401706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2040024657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2279,6 +2554,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: ad4989df60f124818914ca664c17befa, type: 2}
+    - target: {fileID: 3134967432108586767, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     - target: {fileID: 3173250225326896857, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2413,10 +2692,19 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3fbf25d578290443fa0e1a67bd0d9142, type: 2}
+    - target: {fileID: 7146278768984733761, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
+      propertyPath: Rubik
+      value: 
+      objectReference: {fileID: 1939178009}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
 --- !u!4 &2053405494 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 176484163256527663, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
   m_PrefabInstance: {fileID: 2053405493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2065443434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
+  m_PrefabInstance: {fileID: 1519499951}
   m_PrefabAsset: {fileID: 0}
