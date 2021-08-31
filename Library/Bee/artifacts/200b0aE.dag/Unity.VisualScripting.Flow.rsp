@@ -1,7 +1,7 @@
 -target:library
 -out:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.dll"
 -refout:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.ref.dll"
--define:UNITY_2021_1_17
+-define:UNITY_2021_1_18
 -define:UNITY_2021_1
 -define:UNITY_2021
 -define:UNITY_5_3_OR_NEWER

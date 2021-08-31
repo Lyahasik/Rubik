@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CellProcessing : MonoBehaviour
@@ -8,7 +9,6 @@ public class CellProcessing : MonoBehaviour
     public GameObject Cube;
     
     private GameObject _faceSelection;
-    private Vector3 _direction;
     
     private Material _material;
 
@@ -19,18 +19,20 @@ public class CellProcessing : MonoBehaviour
 
     public void SwitchSelection(GameObject face)
     {
-        if (_faceSelection == face)
+        if (!Rubik.IsRotationProcess())
         {
-            _faceSelection = null;
-            Rubik.OffSelections();
-        }
-        else
-        {
-            _material.SetColor("_Color", new Color(0.647778f, 0.0f, 1.0f, 1.0f));
-            Rubik.OffSelections();
-            _faceSelection = face;
-            _direction = _faceSelection.transform.forward;
-            Rubik.SetCurrentCell(gameObject);
+            if (_faceSelection == face)
+            {
+                _faceSelection = null;
+                Rubik.OffSelections();
+            }
+            else
+            {
+                _material.SetColor("_Color", new Color(0.647778f, 0.0f, 1.0f, 1.0f));
+                Rubik.OffSelections();
+                _faceSelection = face;
+                Rubik.SetCurrentCell(gameObject, _faceSelection.transform.forward);
+            }
         }
     }
 
@@ -43,10 +45,5 @@ public class CellProcessing : MonoBehaviour
     {
         _faceSelection = null;
         _material.SetColor("_Color", Color.black);
-    }
-
-    public Vector3 GetDirection()
-    {
-        return _direction;
     }
 }

@@ -7,18 +7,19 @@ using UnityEngine.UIElements;
 public class FacetRotations : MonoBehaviour
 {
     public GameObject[] Cells;
+    public float SpeedRotating = 20.0f;
 
     private bool _selected = false;
     private GameObject _currentCell;
+    private Vector3 _currentCellPosition;
     private List<GameObject> _selectedCells;
 
     private Vector3 _direction;
     private Vector3 _axisRotate;
-    private Quaternion _startRotate;
-    private Quaternion _targetRotate;
     private bool _rotationProcess = false;
+    private int _rezusRotation = 1;
     private List<GameObject> _listTurn;
-    private float test = 0.0f;
+    private float _currentAngle;
 
     private void Start()
     {
@@ -32,65 +33,177 @@ public class FacetRotations : MonoBehaviour
         RotationProcess();
     }
 
+    public bool IsRotationProcess()
+    {
+        return _rotationProcess;
+    }
+
     void InputEvent()
     {
-        if (_selected)
+        if (_selected && !_rotationProcess)
         {
-            if (Input.GetKeyDown(KeyCode.RightArrow))
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
             {
-                _axisRotate = Vector3.up;
-                DefineRotation(90.0f);
-                CreateListTurn();
-                _rotationProcess = true;
+                DefineRotate(Vector3.up, 1);
+            }
+            else if (Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                DefineRotate(Vector3.up, -1);
+            }
+            else if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                DefineRotate(Vector3.right, -1);
+            }
+            else if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                DefineRotate(Vector3.right, 1);
             }
         }
+    }
+
+    void DefineRotate(Vector3 axisRotate, int rezusRotate)
+    {
+        _currentAngle = 0.0f;
+        _rezusRotation = rezusRotate;
+
+        if (_direction == Vector3.forward)
+        {
+            _axisRotate = axisRotate;
+        }
+        else if (_direction == -Vector3.forward)
+        {
+            if (axisRotate == Vector3.right)
+            {
+                _rezusRotation = -_rezusRotation;
+            }
+            
+            _axisRotate = axisRotate;
+        }
+        else if (_direction == Vector3.right)
+        {
+            if (axisRotate == Vector3.right)
+            {
+                _axisRotate = Vector3.forward;
+                _rezusRotation = -_rezusRotation;
+            }
+            else
+            {
+                _axisRotate = axisRotate;
+            }
+        }
+        else if (_direction == -Vector3.right)
+        {
+            if (axisRotate == Vector3.right)
+            {
+                _axisRotate = Vector3.forward;
+            }
+            else
+            {
+                _axisRotate = axisRotate;
+            }
+        }
+        else if (_direction == Vector3.up)
+        {
+            if (axisRotate == Vector3.right)
+            {
+                _axisRotate = axisRotate;
+            }
+            else
+            {
+                _axisRotate = Vector3.forward;
+                _rezusRotation = -_rezusRotation;
+            }
+        }
+        else if (_direction == -Vector3.up)
+        {
+            if (axisRotate == Vector3.right)
+            {
+                _axisRotate = axisRotate;
+            }
+            else
+            {
+                _axisRotate = Vector3.forward;
+            }
+        }
+
+        CreateListTurn();
+        
+        _rotationProcess = true;
     }
 
     void RotationProcess()
     {
-        // _startRotate = Quaternion.Slerp(_startRotate, _targetRotate, 10.0f * Time.deltaTime);
-
         if (_rotationProcess)
         {
+            float step = SpeedRotating * Time.deltaTime;
+                
             foreach (GameObject turnCell in _listTurn)
             {
-                float step = Mathf.Lerp(test, 90.0f, Time.deltaTime * 1.0f);
-                test += step;
-                turnCell.transform.RotateAround(Vector3.zero, _axisRotate, Time.deltaTime * 20.0f);
-            
-                float _dotRotation = Mathf.Abs(Quaternion.Dot(turnCell.transform.rotation, _targetRotate));
-
-                Debug.Log(test);
-            
-                if (_dotRotation == 1.0f)
+                if (_currentAngle + step > 90.0f)
                 {
-                    _rotationProcess = false;
+                    turnCell.transform.RotateAround(Vector3.zero, _axisRotate, (90.0f - _currentAngle) * _rezusRotation);
+                    turnCell.transform.position = new Vector3(Mathf.Round(turnCell.transform.position.x),
+                                                                Mathf.Round(turnCell.transform.position.y),
+                                                                Mathf.Round(turnCell.transform.position.z));
+                }
+                else
+                {
+                    turnCell.transform.RotateAround(Vector3.zero, _axisRotate, step * _rezusRotation);
                 }
             }
+            
+            if (_currentAngle + step > 90.0f)
+            {
+                ReSelected();
+                _listTurn.Clear();
+                _rotationProcess = false;
+            }
+            
+            _currentAngle += step;
         }
     }
 
-    void DefineRotation(float value)
+    void ReSelected()
     {
-        if (_direction == gameObject.transform.up
-            && _direction == -gameObject.transform.up)
+        SetCurrentCell(NewCurrentCell(), _direction);
+    }
+
+    GameObject NewCurrentCell()
+    {
+        GameObject newCell = _currentCell;
+        
+        for (int i = 0; i < Cells.Length; i++)
         {
-            
+            if (Cells[i].transform.position == _currentCellPosition)
+            {
+                newCell = Cells[i];
+            }
         }
-        else
-        {
-            _startRotate = Quaternion.identity;
-            _targetRotate = Quaternion.AngleAxis(value, _axisRotate);
-        }
+
+        return newCell;
     }
 
     void CreateListTurn()
     {
         foreach (GameObject selectedCell in _selectedCells)
         {
-            if (_axisRotate == Vector3.up)
+            if (_axisRotate == Vector3.up || _axisRotate == -Vector3.up)
             {
                 if (_currentCell.transform.position.y == selectedCell.transform.position.y)
+                {
+                    _listTurn.Add(selectedCell);
+                }
+            }
+            else if (_axisRotate == Vector3.right || _axisRotate == -Vector3.right)
+            {
+                if (_currentCell.transform.position.x == selectedCell.transform.position.x)
+                {
+                    _listTurn.Add(selectedCell);
+                }
+            }
+            else if (_axisRotate == Vector3.forward || _axisRotate == -Vector3.forward)
+            {
+                if (_currentCell.transform.position.z == selectedCell.transform.position.z)
                 {
                     _listTurn.Add(selectedCell);
                 }
@@ -98,7 +211,7 @@ public class FacetRotations : MonoBehaviour
         }
     }
 
-    public void SetCurrentCell(GameObject cell)
+    public void SetCurrentCell(GameObject cell, Vector3 direction)
     {
         if (_currentCell != null && _currentCell != cell)
         {
@@ -106,6 +219,8 @@ public class FacetRotations : MonoBehaviour
         }
         
         _currentCell = cell;
+        _currentCellPosition = _currentCell.transform.position;
+        _direction = direction;
         IdentifyFacet();
         _selected = true;
     }
@@ -122,8 +237,6 @@ public class FacetRotations : MonoBehaviour
 
     void IdentifyFacet()
     {
-        _direction = _currentCell.GetComponent<CellProcessing>().GetDirection();
-        
         if (_direction == gameObject.transform.forward
             || _direction == -gameObject.transform.forward)
         {

@@ -2455,6 +2455,7 @@ MonoBehaviour:
   - {fileID: 540084092}
   - {fileID: 1836035330}
   - {fileID: 638046761}
+  SpeedRotating: 180
 --- !u!1001 &1942090913
 PrefabInstance:
   m_ObjectHideFlags: 0
