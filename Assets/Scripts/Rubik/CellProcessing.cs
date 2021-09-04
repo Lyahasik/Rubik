@@ -5,8 +5,11 @@ using UnityEngine;
 
 public class CellProcessing : MonoBehaviour
 {
-    public FacetRotations Rubik;
+    public GameObject Rubik;
+    
     public GameObject Cube;
+    
+    private FacetRotations _rubikRotations;
     
     private GameObject _faceSelection;
     
@@ -15,23 +18,24 @@ public class CellProcessing : MonoBehaviour
     void Start()
     {
         _material = Cube.GetComponent<Renderer>().material;
+        _rubikRotations = Rubik.GetComponent<FacetRotations>();
     }
 
     public void SwitchSelection(GameObject face)
     {
-        if (!Rubik.IsRotationProcess())
+        if (!_rubikRotations.IsRotationProcess())
         {
             if (_faceSelection == face)
             {
                 _faceSelection = null;
-                Rubik.OffSelections();
+                _rubikRotations.OffSelections();
             }
             else
             {
                 _material.SetColor("_Color", new Color(0.647778f, 0.0f, 1.0f, 1.0f));
-                Rubik.OffSelections();
+                _rubikRotations.OffSelections();
                 _faceSelection = face;
-                Rubik.SetCurrentCell(gameObject, _faceSelection.transform.forward);
+                _rubikRotations.SetCurrentCell(gameObject, _faceSelection.transform.forward);
             }
         }
     }

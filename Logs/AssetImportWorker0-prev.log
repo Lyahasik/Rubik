@@ -23,24 +23,24 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54989
+59346
 Successfully changed project path to: /goinfre/dhorker/Rubik
 /goinfre/dhorker/Rubik
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 404.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /goinfre/dhorker/Rubik/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-08-30 18:58:42.351 Unity[70584:2967465] iMac preferred device: AMD Radeon Pro 570 (high power)
-2021-08-30 18:58:42.351 Unity[70584:2967465] Metal devices available: 1
-2021-08-30 18:58:42.351 Unity[70584:2967465] 0: AMD Radeon Pro 570 (high power)
-2021-08-30 18:58:42.352 Unity[70584:2967465] Using device AMD Radeon Pro 570 (high power)
+2021-08-31 12:15:05.167 Unity[94378:4800219] iMac preferred device: AMD Radeon Pro 570 (high power)
+2021-08-31 12:15:05.167 Unity[94378:4800219] Metal devices available: 1
+2021-08-31 12:15:05.167 Unity[94378:4800219] 0: AMD Radeon Pro 570 (high power)
+2021-08-31 12:15:05.168 Unity[94378:4800219] Using device AMD Radeon Pro 570 (high power)
 Initializing Metal device caps: AMD Radeon Pro 570
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56378
 Begin MonoManager ReloadAssembly

@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\Rubik\FaceProcessing.cs" />
      <Compile Include="Assets\Scripts\Rubik\CellProcessing.cs" />
      <Compile Include="Assets\Scripts\RotatingCamera.cs" />
+     <Compile Include="Assets\Scripts\Rubik\Solution.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

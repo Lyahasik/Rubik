@@ -326,6 +326,7 @@
 "Assets/Scripts/Rubik/CellProcessing.cs"
 "Assets/Scripts/Rubik/FaceProcessing.cs"
 "Assets/Scripts/Rubik/FacetRotations.cs"
+"Assets/Scripts/Rubik/Solution.cs"
 -langversion:8.0
 
 /deterministic
