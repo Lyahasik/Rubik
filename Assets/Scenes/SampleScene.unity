@@ -458,7 +458,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &258173208
 PrefabInstance:
@@ -636,7 +636,7 @@ RectTransform:
   m_Children:
   - {fileID: 387869249}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -948,8 +948,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -880, y: -525}
-  m_SizeDelta: {x: 160, y: 300}
+  m_AnchoredPosition: {x: 802.4989, y: -435.74942}
+  m_SizeDelta: {x: 259.8701, y: 132.5704}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &387869250
 MonoBehaviour:
@@ -995,9 +995,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1939178008}
-        m_TargetAssemblyTypeName: Solution, Assembly-CSharp
-        m_MethodName: StartSolution
+      - m_Target: {fileID: 890867091}
+        m_TargetAssemblyTypeName: Parse, Assembly-CSharp
+        m_MethodName: StartProcess
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1210,7 +1210,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &638046761 stripped
 GameObject:
@@ -1570,6 +1570,51 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 584847298830513702, guid: 5ea0d9ab98b9c4590bc015fb277773af, type: 3}
   m_PrefabInstance: {fileID: 2040024657}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &890867090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 890867092}
+  - component: {fileID: 890867091}
+  m_Layer: 0
+  m_Name: ParseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &890867091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890867090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9ddf0ab42f94e239cc2cd3f050379c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Solution: {fileID: 1939178008}
+  RubikRotations: {fileID: 1939178009}
+--- !u!4 &890867092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890867090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.4854956, y: -1.983715, z: -0.49768972}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &951799135 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4363970110160265755, guid: 03c9c5d7f32f24582999950d9bb5a807, type: 3}
@@ -2220,18 +2265,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Collect
 --- !u!222 &1753228228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2405,7 +2450,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1777709069 stripped
 GameObject:
@@ -2793,7 +2838,7 @@ Transform:
   - {fileID: 1788235105}
   - {fileID: 1328629091}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1939178008
 MonoBehaviour:

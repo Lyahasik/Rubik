@@ -5,7 +5,6 @@ Library/Bee/artifacts/movedfrom/UnityEditor.iOS.Extensions.Common.dll_7763664710
 Library/Bee/artifacts/movedfrom/UnityEditor.iOS.Extensions.dll_6947463864443973332.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEditor.iOS.Extensions.Xcode.dll_3358854152383764251.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEditor.Lumin.Extensions.dll_14628697827096563892.movedfrom
-Library/Bee/artifacts/movedfrom/UnityEditor.WebGL.Extensions.dll_11961414179794885044.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEditor.WindowsStandalone.Extensions.dll_14182383379102061220.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEditor.Graphs.dll_8438982191013044750.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEditor.CoreModule.dll_1012822130456949724.movedfrom
@@ -86,7 +85,8 @@ Library/Bee/artifacts/movedfrom/UnityEngine.VRModule.dll_2542034168930626004.mov
 Library/Bee/artifacts/movedfrom/UnityEngine.WindModule.dll_12069069584939244912.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEngine.XRModule.dll_6198608540651632434.movedfrom
 Library/Bee/artifacts/movedfrom/UnityEditor.OSXStandalone.Extensions.dll_517035270000429871.movedfrom
-Library/Bee/artifacts/movedfrom/Unity.Plastic.Antlr3.Runtime.dll_5325798623660650692.movedfrom
-Library/Bee/artifacts/movedfrom/Unity.VisualScripting.IonicZip.dll_5914511388346587123.movedfrom
-Library/Bee/artifacts/movedfrom/Unity.VisualScripting.YamlDotNet.dll_1697216906048758137.movedfrom
-Library/Bee/artifacts/movedfrom/Unity.VisualScripting.Antlr3.Runtime.dll_14482134571851444632.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.Plastic.Antlr3.Runtime.dll_13246917025130379859.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.Plastic.Newtonsoft.Json.dll_17765961428864415794.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.VisualScripting.IonicZip.dll_10420408350726481363.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.VisualScripting.YamlDotNet.dll_11307693743266793881.movedfrom
+Library/Bee/artifacts/movedfrom/Unity.VisualScripting.Antlr3.Runtime.dll_5645867335359928760.movedfrom

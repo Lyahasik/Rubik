@@ -1,4 +1,4 @@
-Unity Editor version:    2021.1.18f1 (25bdc3efbc2d)
+Unity Editor version:    2021.1.22f1 (a137e5fb0427)
 Branch:                  2021.1/staging
 Build type:              Release
 Batch mode:              YES
@@ -19,81 +19,69 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker3
 -projectPath
-/goinfre/dhorker/Rubik
+/goinfre/dhorker/rubik
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-59346
-Successfully changed project path to: /goinfre/dhorker/Rubik
-/goinfre/dhorker/Rubik
+65159
+Successfully changed project path to: /goinfre/dhorker/rubik
+/goinfre/dhorker/rubik
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 554.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 216.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
+Initialize engine version: 2021.1.22f1 (a137e5fb0427)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /goinfre/dhorker/Rubik/Assets
+[Subsystems] Discovering subsystems at path /goinfre/dhorker/rubik/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-2021-08-31 12:16:39.094 Unity[95310:4803074] iMac preferred device: AMD Radeon Pro 570 (high power)
-2021-08-31 12:16:39.094 Unity[95310:4803074] Metal devices available: 1
-2021-08-31 12:16:39.094 Unity[95310:4803074] 0: AMD Radeon Pro 570 (high power)
-2021-08-31 12:16:39.095 Unity[95310:4803074] Using device AMD Radeon Pro 570 (high power)
+2021-09-27 13:55:46.475 Unity[51757:2654265] iMac preferred device: AMD Radeon Pro 570 (high power)
+2021-09-27 13:55:46.475 Unity[51757:2654265] Metal devices available: 1
+2021-09-27 13:55:46.475 Unity[51757:2654265] 0: AMD Radeon Pro 570 (high power)
+2021-09-27 13:55:46.477 Unity[51757:2654265] Using device AMD Radeon Pro 570 (high power)
 Initializing Metal device caps: AMD Radeon Pro 570
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56310
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56757
 Begin MonoManager ReloadAssembly
-Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
-  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileSystemEnumerableIterator`1[TSource].AddSearchableDirsToStack (System.IO.Directory+SearchData localSearchData) [0x00053] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.FileSystemEnumerableIterator`1[TSource].MoveNext () [0x0008e] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00077] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x0000f] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.Modules.ModuleManager.LoadLegacyExtensionsFromIvyFiles () [0x000a5] in /Users/bokken/buildslave/unity/build/Editor/Mono/Modules/ModuleManager.cs:253 
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.188688 seconds.
+Registered in 0.059286 seconds.
 Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 87.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.888 seconds
+- Completed reload, in 12.668 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7888ms)
-		BeginReloadAssembly (3736ms)
+	ReloadAssembly (12668ms)
+		BeginReloadAssembly (1250ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1122ms)
-			LoadAssemblies (4027ms)
+		EndReloadAssembly (623ms)
+			LoadAssemblies (1257ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (444ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (263ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
+				RefreshPlugins (87ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (175ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.646666 seconds.
+Registered in 0.118456 seconds.

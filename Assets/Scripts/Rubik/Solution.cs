@@ -5,15 +5,16 @@ using UnityEngine;
 
 public class Solution : MonoBehaviour
 {
+    public Queue<string> QueueSteps;
+    
     private FacetRotations _rubikRotations;
 
-    private Queue<string> _queueSteps;
     private bool _solution = false;
 
     private void Start()
     {
+        QueueSteps = new Queue<string>();
         _rubikRotations = GetComponent<FacetRotations>();
-        _queueSteps = new Queue<string>();
     }
 
     public void StartSolution()
@@ -21,6 +22,7 @@ public class Solution : MonoBehaviour
         if (!_solution)
         {
             _solution = true;
+
             NextStep();
         }
     }
@@ -32,9 +34,9 @@ public class Solution : MonoBehaviour
 
     public void NextStep()
     {
-        if (_queueSteps.Count > 0)
+        if (QueueSteps.Count > 0)
         {
-            ChangeFacetRotate(_queueSteps.Dequeue());
+            ChangeFacetRotate(QueueSteps.Dequeue());
         }
         else
         {
@@ -44,7 +46,7 @@ public class Solution : MonoBehaviour
 
     public void AddStep(string nameStep)
     {
-        _queueSteps.Enqueue(nameStep);
+        QueueSteps.Enqueue(nameStep);
     }
     
     void ChangeFacetRotate(string nameRotate)
